@@ -165,6 +165,7 @@ body {
 }
 /* a连接跳转主页界面 */
 .middle a {
+    /* font-weight: 700; */
     width: 100px;
     height: 60px;
     border-radius: 10px;
@@ -177,6 +178,134 @@ body {
 }
 
 
+/* 作品1部分 */
+.zuopin1 {
+    display: flex;
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+    background-color: #ebebeb;
+}
+
+.zuopin1 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-left: 50px;
+}
+/* 鼠标悬停照片放大效果 */
+.zuopin1 img:hover {
+    transform: scale(1.01);
+}
+
+.zuopin1 dl {
+    margin-left: 200px;
+    margin-top: 150px;
+    line-height: 50px;
+}
+/* 标题 */
+.zuopin1 h2 {
+    font-size: 50px;
+    color: #ff4654;
+    font-style: italic;
+    
+}
+/* 介绍文字 */
+.zuopin1 .dd1 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* 超链接文字 */
+.zuopin1 .dd2 {
+    text-align: center;
+}
+
+/* 超链接 */
+.zuopin1 a {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ff4654;
+}
+
+/* 作品集2部分 */
+.zuopin2 {
+    display: flex;
+    padding-top: 80px;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 1400px;
+    height: 700px;
+    background-color: #ebebeb;
+}
+
+.zuopin2 dl {
+    margin-right: 300px;
+    margin-top: 150px;
+    line-height: 50px;
+}
+/* 作品集2图片 */
+.zuopin2 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+/* 作品集2图片效果 */
+.zuopin2 img:hover {
+    transform: scale(1.01);
+}
+
+/* 标题 */
+.zuopin2 h2 {
+    font-size: 50px;
+    color: #ff4654;
+    font-style: italic;
+    text-align: center;
+    
+    
+}
+/* 介绍文字 */
+.zuopin2 .dd1 {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+/* 超链接文字 */
+.zuopin2 .dd2 {
+    text-align: center;
+}
+
+/* 超链接 */
+.zuopin2 a {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ff4654;
+}
 
 
 
