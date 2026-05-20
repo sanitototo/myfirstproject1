@@ -1,6 +1,6 @@
 .wrapper {
     margin: 0 ;
-    width: 1200px;
+    width: 100%;
 }
 
 body {
@@ -59,11 +59,63 @@ body {
     border-bottom: 2px solid #ff4654;
     /* 下划线往下移动 */
     padding-bottom: 12px;
-    
+}
+
+/* 搜索栏 */
+.seach {
+    display: flex;
+    width: 500x;
+    height: 40px;
+    background-color: #3a4853;
+   border-radius: 20px;
+   margin-left: 420px;
+   padding-left: 19px;
+   padding-right: 12px;
+}
+
+.seach input {
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    color: #f3f5f7;
+}
+
+.seach a {
+    display: flex;
+    color: #fff;
+    font-size: 12px;
 }
 
 
+/* 选中文字属性样式 */
+.seach input::placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
 
+.seach a {
+    width: 16px;
+    height: 16px;
+   
+}
+
+.user {
+    margin-left: 150px;
+}
+.user img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.user span {
+    padding-left: 10px;
+    font-size: 16px;
+    color: #fff;
+}
 
 
 
