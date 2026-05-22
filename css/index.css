@@ -116,6 +116,10 @@ body {
     font-size: 16px;
     color: #fff;
 }
+/* 跳转 */
+html {
+  scroll-behavior: smooth;
+}
 
 /* 中间部分 */
 .middle {
@@ -315,6 +319,7 @@ body {
     color: #ff4654;
     font-style: italic;
     text-align: center;
+    margin-left: 70px;
     
     
 }
@@ -323,6 +328,7 @@ body {
     font-size: 20px;
     padding-top: 20px;
     text-align: center;
+    padding-left: 30px;
     
 }
 
@@ -395,8 +401,24 @@ body {
 /* 最底部 文字*/
 .zuidibuwenzi {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: black;
+}
+
+.zuidibuwenzi ul {
+    padding-top: 30px;
+    text-align: center;
+}
+.zuidibuwenzi li {
+    color: #fff;
+    font-size: 15px;
+}
+.zuidibuwenzi a {
+    color: #fff;
+}
+
+.zuidibuwenzi a:hover {
+    color: #ff4654;
 }
 
 
